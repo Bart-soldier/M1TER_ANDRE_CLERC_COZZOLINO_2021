@@ -1,0 +1,11 @@
+#ifndef CONFIG_H
+#define CONFIG_H
+
+#include <cstdint>
+#include <cstddef>
+
+#ifndef RESOURCES_DIRECTORY
+#define RESOURCES_DIRECTORY "@RESOURCES_DIRECTORY@"
+#endif
+
+#endif
